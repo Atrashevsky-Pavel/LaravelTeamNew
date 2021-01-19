@@ -1,0 +1,104 @@
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 70px;
+    width: 100%;
+    background-color: #005cbf;
+}
+.content {
+    position: fixed;
+    top: 70px;
+    left: 0px;
+    bottom: 70px;
+    width: 100%;
+    overflow-y: auto;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.content_table {
+    width: min-content;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.content_table >div {
+    border: 1px solid black;
+}
+.content_table_name {
+    width: 150px;
+}
+.content_table_job {
+    width: 300px;
+}
+.content_table_age {
+    width: 40px;
+}
+.content_table_buttons {
+    width: 240px;
+
+}
+.content_table_buttons button {
+    margin-top: 5px;
+}
+.content_table_buttons button:nth-child(1) {
+    margin-right: 15px;
+}
+.headerLinks > a {
+    color: white;
+    padding: 0 25px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.headerLinks > p {
+    color: white;
+}
+.headerLinks {
+    padding-left: 20px;
+    display: flex;
+}
+
+.form {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: 10;
+    color: white;
+    border: 2px solid white;
+}
+.formInput {
+    margin: 120px auto 80px auto;
+    padding: 15px;
+    width: 440px;
+    background-color: #0000bf;
+    border-radius: 5px;
+
+}
+.formInput input {
+    width: 100%;
+}
+.formInput button {
+    margin-top: 15px;
+}
+.formInput button:nth-child(6) {
+    margin-left: 12px;
+}
+
+
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    height: 70px;
+    width: 100%;
+    background-color: #005cbf;
+    padding-left: 30px;
+    padding-top: 15px;
+}
